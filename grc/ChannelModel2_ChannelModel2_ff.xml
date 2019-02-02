@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<block>
+  <name>ChannelModel2_ff</name>
+  <key>ChannelModel2_ChannelModel2_ff</key>
+  <category>[ChannelModel2]</category>
+  <import>import ChannelModel2</import>
+  <make>ChannelModel2.ChannelModel2_ff($gt, $gr1, $dis, $ampl)</make>
+  <callback>d_gt($gt)</callback>
+  <callback>d_gr1($gr1)</callback>
+  <callback>d_dis($dis)</callback>
+  <callback>d_ampl($ampl)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>GT(Alpha)</name>
+    <key>gt</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>GR(Beta)</name>
+    <key>gr1</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Distance</name>
+    <key>dis</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Noise Amplitude</name>
+    <key>ampl</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

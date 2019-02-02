@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff" kind="class"><name>gr::ChannelModel2::ChannelModel2_ff</name>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1af1288fc5bcb6bcd4a0101a24dc725db2" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a73a9d9d36310eb03dfbba6c8a5f72978" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a04c55a76ce2c91d86723e07112383f68" kind="function"><name>d_gt</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a4936c9900b26d4819cbd70f958a7c875" kind="function"><name>gt</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1ae9dbd1e466361005823b6485a3ddd166" kind="function"><name>d_gr1</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a0486f757d2a2f181cc277a241ca6d936" kind="function"><name>gr1</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1afbb1345d856f87318d92de329026e6bd" kind="function"><name>d_dis</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a11770374c391b986a8d4c6878fb8d389" kind="function"><name>dis</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1af3f27d546cff331375a59280a5ffebe7" kind="function"><name>d_ampl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a6b270d4cb4ca26f2ea6d0d5e6062d54f" kind="function"><name>ampl</name></member>
+  </compound>
+  <compound refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl" kind="class"><name>gr::ChannelModel2::ChannelModel2_ff_impl</name>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2775c4a13312a81a5615312d9e8e4270" kind="variable"><name>my_gt</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a3c1c9bfcfedc76cba09a0bbc733d0466" kind="variable"><name>my_gr1</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1acc98caebec3ffda0495780f5f7ec5234" kind="variable"><name>my_dis</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a87f536f0efa2636fb5d666481cc9724c" kind="variable"><name>my_ampl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ac8c509f950c38926963386f060394305" kind="variable"><name>d_rng</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a7a5c91a75579dd87d00e6d5ee29461f0" kind="function"><name>ChannelModel2_ff_impl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a0e2cf5c5abbdea84853a350b0cc93efd" kind="function"><name>~ChannelModel2_ff_impl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a91a15954780a292e9ef7afbf31bbad55" kind="function"><name>d_gt</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ae717acbadd14dd07fe5508712ae4e9cb" kind="function"><name>gt</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a043c6b65964b5d2cd173b9a25d8dd5fa" kind="function"><name>d_gr1</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a4c9260b24e3df4edf225310a478f2dc9" kind="function"><name>gr1</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1abb678ffecb96071f042b83f9170f7622" kind="function"><name>d_dis</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a62fde6ab2b65c9b540d73d4b0fc3bf2d" kind="function"><name>dis</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a6e939c1da278536371a4f7bc356dbcdd" kind="function"><name>d_ampl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a8db00655c3f1fb4c24e669a61994204c" kind="function"><name>ampl</name></member>
+    <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2963146a0bef2fd6b6c842ac01144adf" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1ChannelModel2" kind="namespace"><name>gr::ChannelModel2</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1abaaefe873cbcc166f1914cee43785b1b" kind="define"><name>CHANNELMODEL2_API</name></member>
+  </compound>
+  <compound refid="ChannelModel2__ff_8h" kind="file"><name>ChannelModel2_ff.h</name>
+  </compound>
+  <compound refid="ChannelModel2__ff__impl_8h" kind="file"><name>ChannelModel2_ff_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_6e6f4c864d8b80793d0d1eac27a63643" kind="dir"><name>ChannelModel2</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

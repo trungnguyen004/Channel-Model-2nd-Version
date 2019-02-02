@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ChannelModel2::ChannelModel2_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff" prot="public" virt="non-virtual">gr::ChannelModel2::ChannelModel2_ff</basecompoundref>
+    <includes refid="ChannelModel2__ff__impl_8h" local="no">ChannelModel2_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2775c4a13312a81a5615312d9e8e4270" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::my_gt</definition>
+        <argsstring></argsstring>
+        <name>my_gt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="33" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a3c1c9bfcfedc76cba09a0bbc733d0466" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::my_gr1</definition>
+        <argsstring></argsstring>
+        <name>my_gr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="34" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1acc98caebec3ffda0495780f5f7ec5234" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::my_dis</definition>
+        <argsstring></argsstring>
+        <name>my_dis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="35" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a87f536f0efa2636fb5d666481cc9724c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::my_ampl</definition>
+        <argsstring></argsstring>
+        <name>my_ampl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="36" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ac8c509f950c38926963386f060394305" prot="private" static="no" mutable="no">
+        <type>gr::random</type>
+        <definition>gr::random gr::ChannelModel2::ChannelModel2_ff_impl::d_rng</definition>
+        <argsstring></argsstring>
+        <name>d_rng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="37" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a7a5c91a75579dd87d00e6d5ee29461f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ChannelModel2::ChannelModel2_ff_impl::ChannelModel2_ff_impl</definition>
+        <argsstring>(float gt, float gr1, float dis, float ampl)</argsstring>
+        <name>ChannelModel2_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>gt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gr1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a0e2cf5c5abbdea84853a350b0cc93efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ChannelModel2::ChannelModel2_ff_impl::~ChannelModel2_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ChannelModel2_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a91a15954780a292e9ef7afbf31bbad55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ChannelModel2::ChannelModel2_ff_impl::d_gt</definition>
+        <argsstring>(float gt)</argsstring>
+        <name>d_gt</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a04c55a76ce2c91d86723e07112383f68">d_gt</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="43" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="43" bodyend="43"/>
+        <references refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ae717acbadd14dd07fe5508712ae4e9cb" compoundref="ChannelModel2__ff__impl_8h" startline="44" endline="44">gt</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ae717acbadd14dd07fe5508712ae4e9cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::gt</definition>
+        <argsstring>()</argsstring>
+        <name>gt</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a4936c9900b26d4819cbd70f958a7c875">gt</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="44" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="44" bodyend="44"/>
+        <referencedby refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a91a15954780a292e9ef7afbf31bbad55" compoundref="ChannelModel2__ff__impl_8h" startline="43" endline="43">d_gt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a043c6b65964b5d2cd173b9a25d8dd5fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ChannelModel2::ChannelModel2_ff_impl::d_gr1</definition>
+        <argsstring>(float gr1)</argsstring>
+        <name>d_gr1</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1ae9dbd1e466361005823b6485a3ddd166">d_gr1</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gr1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="45" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="45" bodyend="45"/>
+        <references refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a4c9260b24e3df4edf225310a478f2dc9" compoundref="ChannelModel2__ff__impl_8h" startline="46" endline="46">gr1</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a4c9260b24e3df4edf225310a478f2dc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::gr1</definition>
+        <argsstring>()</argsstring>
+        <name>gr1</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a0486f757d2a2f181cc277a241ca6d936">gr1</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="46" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="46" bodyend="46"/>
+        <referencedby refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a043c6b65964b5d2cd173b9a25d8dd5fa" compoundref="ChannelModel2__ff__impl_8h" startline="45" endline="45">d_gr1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1abb678ffecb96071f042b83f9170f7622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ChannelModel2::ChannelModel2_ff_impl::d_dis</definition>
+        <argsstring>(float dis)</argsstring>
+        <name>d_dis</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1afbb1345d856f87318d92de329026e6bd">d_dis</reimplements>
+        <param>
+          <type>float</type>
+          <declname>dis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="47" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="47" bodyend="47"/>
+        <references refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a62fde6ab2b65c9b540d73d4b0fc3bf2d" compoundref="ChannelModel2__ff__impl_8h" startline="48" endline="48">dis</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a62fde6ab2b65c9b540d73d4b0fc3bf2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::dis</definition>
+        <argsstring>()</argsstring>
+        <name>dis</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a11770374c391b986a8d4c6878fb8d389">dis</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="48" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="48" bodyend="48"/>
+        <referencedby refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1abb678ffecb96071f042b83f9170f7622" compoundref="ChannelModel2__ff__impl_8h" startline="47" endline="47">d_dis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a6e939c1da278536371a4f7bc356dbcdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ChannelModel2::ChannelModel2_ff_impl::d_ampl</definition>
+        <argsstring>(float ampl)</argsstring>
+        <name>d_ampl</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1af3f27d546cff331375a59280a5ffebe7">d_ampl</reimplements>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="49" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="49" bodyend="49"/>
+        <references refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a8db00655c3f1fb4c24e669a61994204c" compoundref="ChannelModel2__ff__impl_8h" startline="50" endline="50">ampl</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a8db00655c3f1fb4c24e669a61994204c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::ChannelModel2::ChannelModel2_ff_impl::ampl</definition>
+        <argsstring>()</argsstring>
+        <name>ampl</name>
+        <reimplements refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a6b270d4cb4ca26f2ea6d0d5e6062d54f">ampl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="50" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="50" bodyend="50"/>
+        <references refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2963146a0bef2fd6b6c842ac01144adf">general_work</references>
+        <referencedby refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a6e939c1da278536371a4f7bc356dbcdd" compoundref="ChannelModel2__ff__impl_8h" startline="49" endline="49">d_ampl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2963146a0bef2fd6b6c842ac01144adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ChannelModel2::ChannelModel2_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="54" column="1"/>
+        <referencedby refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a8db00655c3f1fb4c24e669a61994204c" compoundref="ChannelModel2__ff__impl_8h" startline="50" endline="50">ampl</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::ChannelModel2::ChannelModel2_ff</label>
+        <link refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::ChannelModel2::ChannelModel2_ff_impl</label>
+        <link refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::ChannelModel2::ChannelModel2_ff</label>
+        <link refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::ChannelModel2::ChannelModel2_ff_impl</label>
+        <link refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" line="31" column="1" bodyfile="/home/jason/gr-ChannelModel2/lib/ChannelModel2_ff_impl.h" bodystart="30" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a8db00655c3f1fb4c24e669a61994204c" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>ampl</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a7a5c91a75579dd87d00e6d5ee29461f0" prot="public" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>ChannelModel2_ff_impl</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a6e939c1da278536371a4f7bc356dbcdd" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>d_ampl</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1abb678ffecb96071f042b83f9170f7622" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>d_dis</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a043c6b65964b5d2cd173b9a25d8dd5fa" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>d_gr1</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a91a15954780a292e9ef7afbf31bbad55" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>d_gt</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ac8c509f950c38926963386f060394305" prot="private" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>d_rng</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a62fde6ab2b65c9b540d73d4b0fc3bf2d" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>dis</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2963146a0bef2fd6b6c842ac01144adf" prot="public" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a4c9260b24e3df4edf225310a478f2dc9" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>gr1</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1ae717acbadd14dd07fe5508712ae4e9cb" prot="public" virt="virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>gt</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1a73a9d9d36310eb03dfbba6c8a5f72978" prot="public" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a87f536f0efa2636fb5d666481cc9724c" prot="private" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>my_ampl</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1acc98caebec3ffda0495780f5f7ec5234" prot="private" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>my_dis</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a3c1c9bfcfedc76cba09a0bbc733d0466" prot="private" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>my_gr1</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a2775c4a13312a81a5615312d9e8e4270" prot="private" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>my_gt</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff_1af1288fc5bcb6bcd4a0101a24dc725db2" prot="public" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ChannelModel2_1_1ChannelModel2__ff__impl_1a0e2cf5c5abbdea84853a350b0cc93efd" prot="public" virt="non-virtual"><scope>gr::ChannelModel2::ChannelModel2_ff_impl</scope><name>~ChannelModel2_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
