@@ -1,3 +1,0 @@
-test_ChannelModel2 1 0.0253839
-qa_ChannelModel2_ff 1 0.348634
----
